@@ -1,0 +1,137 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilos de la barra de navegación */
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin-bottom: 5px;
+}
+
+/* Estilos de los artículos */
+article {
+    background-color: #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilos de los títulos de los artículos */
+article h1, article h2 {
+    color: #fff;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Estilos del bloque de citas en el aside */
+blockquote {
+    background-color: #333;
+    border-left: 5px solid #333;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+/* Estilos del enlace en el pie de página */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos de la sección de comentarios */
+article footer p {
+    margin-top: 10px;
+    color: #777;
+}
+
+/* Estilos de la sección de tiempo */
+article time {
+    color: #777;
+}
+
+/* Estilos de los enlaces de navegación */
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos del enlace de visita al sitio web en el artículo */
+article a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article img.iphone-image {
+    display: block;
+    margin: 20px auto; 
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+a {
+    cursor: pointer;
+}
+
+.styled-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+}
+
+
+.styled-button:hover {
+    background-color: #2980b9;
+}
